@@ -1,0 +1,31 @@
+{
+    "name": "caravane/ui-bundle",
+    "type": "symfony-bundle",
+    "description": "Various ui",
+    "keywords": ["UI"],
+    "homepage": "http://github.com/caravane",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Eric Grivilers",
+            "email":"eric@caravanemedia.com",
+            "homepage":"http://www.caravanemedia.com/"
+        },
+        {
+            "name": "Caravane",
+            "homepage": "http://www.caravanemedia.com/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev",
+        "symfony/twig-bundle": ">=2.1,<2.3-dev"
+    },
+
+    "autoload": {
+        "psr-0": { "Caravane\\UIBundle": "" }
+    },
+
+    "target-dir": "Caravane/UIBundle"
+}

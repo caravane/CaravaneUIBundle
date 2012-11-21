@@ -1,0 +1,22 @@
+{% javascripts output="js/datatables.js"
+	'../vendor/datatables/datatables/media/js/jquery.dataTables.js'
+	"@CaravaneUIBundle/Resources/public/js/datatables.js"
+%}
+   	
+     <script src="{{ asset_url }}"  type="text/javascript" ></script>
+{% endjavascripts %}
+<script type="text/javascript">
+
+/* Table initialisation */
+$(document).ready(function() {
+	/*$('#example').dataTable( {
+		"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
+		"sPaginationType": "bootstrap",
+		"oLanguage": {
+			"sLengthMenu": "_MENU_ records per page"
+		}
+	} );
+	*/
+	$('#example').dataTable();
+} );
+</script>

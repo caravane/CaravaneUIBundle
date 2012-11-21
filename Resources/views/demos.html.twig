@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>UI demos</title>
+    {% block stylesheets %}
+    	{% include "CaravaneUIBundle::stylesheets.html.twig" %}
+    {% endblock stylesheets %}
+    
+  </head>
+  <body>
+  	<div class="row-fluid">
+  		<div class="container-fluid">
+  	{% block body %}
+
+  	{% endblock body %}
+  </div>
+  </div>
+  	{% block javascripts %}
+  		{% include "CaravaneUIBundle::javascripts.html.twig" %}
+  	{% endblock javascripts %}
+  	
+  </body>
+ </html>

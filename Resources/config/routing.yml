@@ -1,0 +1,3 @@
+datatables:
+    pattern:  /datatables
+    defaults: { _controller: CaravaneUIBundle:Datatables:demo }
